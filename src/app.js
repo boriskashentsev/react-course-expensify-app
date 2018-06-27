@@ -12,9 +12,9 @@ import 'react-dates/lib/css/_datepicker.css'
 
 const store = configureStore()
 
-store.dispatch(addExpense({description: 'Water bill', amount: 4500}))
-store.dispatch(addExpense({description: 'Gas bill', createdAt: 1000, amount: 100}))
-store.dispatch(addExpense({description: 'Rent', amount: 109500}))
+// store.dispatch(addExpense({description: 'Water bill', amount: 4500}))
+// store.dispatch(addExpense({description: 'Gas bill', createdAt: 1000, amount: 100}))
+// store.dispatch(addExpense({description: 'Rent', amount: 109500}))
 //store.dispatch(setTextFilter('water'))
 
 /*const state = store.getState()
